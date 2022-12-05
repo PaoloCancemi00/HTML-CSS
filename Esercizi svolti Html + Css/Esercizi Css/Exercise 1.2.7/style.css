@@ -1,0 +1,12 @@
+.content div{
+background-color: aqua;
+margin-bottom: 10px;
+}
+
+#testata .section span{
+    text-decoration: line-through;
+}
+
+p:not(.mare) span{ 
+    color: aqua;
+}

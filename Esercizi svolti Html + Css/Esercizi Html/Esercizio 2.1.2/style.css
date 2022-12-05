@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    
+}
+table {
+    
+    border: solid;
+    border-color: gray;
+    background-color: bisque;
+}
+th {
+    color: white;
+    background-color: rgba(165, 42, 42, 0.911);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+button{
+    background-color: rgba(244, 224, 66, 0.674);
+    text-align: center;
+    width:max-content;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size:x-small;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+#centrato{
+    text-align: center;
+
+}
+tr{
+    margin: px;
+}

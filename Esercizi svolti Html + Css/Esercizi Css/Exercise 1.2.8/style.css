@@ -1,0 +1,11 @@
+p:not(.mare) span{
+    background-color: blue;
+}
+
+.header #menu li:last-of-type{
+    color: red;
+}
+
+div:not(.sabbia) span:nth-of-type(4){
+    color: green;
+}

@@ -1,0 +1,12 @@
+#cielo.mare, p.albero{
+    font-weight: bold;
+}
+
+#container.main #sole{
+    color: aqua;
+}
+
+.main #sponsors .sponsor{
+    background-color: bisque;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,101 @@
+	<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Exercise 2.1.1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <table>
+            <tr id="header">
+                <td colspan="2">
+                    Registration Form</td>
+            </tr>
+
+            <tr >
+                <td >
+                    <label for="user_name">Username</label>
+                </td>
+                <td>
+                    <input id="user_name" name="user_name">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="user_name">Password</label>
+                </td>
+                <td>
+                    <input type="password" id="user_password">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="user_address">Enter Address</label>
+                </td>
+                <td>
+                    <textarea id="user_address"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="user_game">Select Game</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="user_game" value="Hockey"> Hockey<br>
+                    <input type="checkbox" name="user_game" value="Football"> Football<br>
+                    <input type="checkbox" name="user_game" value="Badminton"> Badminton<br>
+                    <input type="checkbox" name="user_game" value="Cricket"> Cricket<br>
+                    <input type="checkbox" name="user_game" value="Volleyball"> Volleyball<br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="user_gender">Gender</label>
+                </td>
+                <td>
+                    <input type="radio" name="user_gender" id="male" value="male">  <label for="male">Male</label>
+                    <input type="radio" name="user_gender" value="female"> <label for="female">Female</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="user_age">Select your age</label>
+                </td>
+                <td>
+                    <select name="user_age" id="user_age">
+                        <option value="more_22">More than 22</option>
+                        <option value="less_22">Less than 22</option>
+                    </select>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <label for="user_photo">Select photo</label>
+                </td>
+                <td>
+                    <input type="file">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <button>Click me</button>
+                    <button type="reset">Reimposta</button>
+                    <button type="submit">Submit form</button>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+
+</html>

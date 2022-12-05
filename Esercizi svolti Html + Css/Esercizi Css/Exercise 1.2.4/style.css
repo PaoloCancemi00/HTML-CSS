@@ -1,0 +1,13 @@
+.contenitore{
+    display: flex;
+    background-color: brown;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.rettangolo{
+    background-color: bisque;
+    width: 20%;
+    height: 700px;
+    margin: 25px;
+}

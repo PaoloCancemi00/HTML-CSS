@@ -1,0 +1,13 @@
+table, th, td {
+            border: 1px solid black;
+        }
+#header{
+    text-align: center;
+    background-color: yellow;
+    color: red;
+    font-size: large;
+    font-weight: 600;
+}
+table {
+    background-color: cyan;
+}
